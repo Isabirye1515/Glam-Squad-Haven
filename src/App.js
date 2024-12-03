@@ -15,7 +15,7 @@ import Company from './components/company/company';
 
 function App() {
   return (
-    <div className="App">
+    < div className='container'>
       <Header />
       <div  className='route'>
       <Routes>
@@ -32,7 +32,7 @@ function App() {
     </div>
       
       <Footer />
-    </div>
+      </div>
   );
 }
 

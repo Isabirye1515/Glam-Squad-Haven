@@ -18,12 +18,12 @@ const HeroSecton = () => {
               {/* Info Section */}
               <Grid className='hello2' >
                 {info.map((item) => (
-                    <Column key={item.id} lg={4} md={4} sm={2} className="info-card">
+                    <Column key={item.id} lg={4} md={4} sm={4} className="info-card">
                         <center>
                         <div className='container rounded text-info bg-white m-2 ' >
                             <h3   >0{item.id}</h3>
-                            <img src={item.image} height={150} width={150} alt={item.info} />
-                            <p className='fw-bold' >{item.info}</p>
+                            <img src={item.image} height="30%" width="100%" alt={item.info}  className='image2' />
+                            <p className='fw-bolder m-2 p-4' >{item.info}</p>
                         </div>
                         </center>
                     </Column>

@@ -1,12 +1,7 @@
 .App{
     overflow-y: auto;
 }
-.container{
-    border: 2px solid #ddd;
-    padding:20px;
-    
 
-}
 .shop{
 
     display: flex;  

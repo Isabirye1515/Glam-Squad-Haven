@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 const Company = () => {
     return (
         <div className='p-5 m-4' >
-            <Link to="services" className='bg-primary rounded'  >
+            <Link to="services"   >
             Services
             </Link><br/><br />
             <Link to="shop" >
