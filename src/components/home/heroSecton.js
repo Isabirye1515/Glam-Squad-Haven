@@ -14,16 +14,21 @@ const HeroSecton = () => {
         { id: 4, image: image4, info: "Experience our passion for great food and service" },
     ];
     return (
-        <div>
+        <div className='bg-primary' >
+            <div className='fw-light p-3 m-4' >
+                    <h2>Savor the Flavors of Our Bistro</h2>
+                   <p> Delight in Every Bite, Every Moment</p>
+                </div>
               {/* Info Section */}
-              <Grid className='hello2' >
+              <Grid className='hello2  p-4' >
+                
                 {info.map((item) => (
                     <Column key={item.id} lg={4} md={4} sm={4} className="info-card">
                         <center>
-                        <div className='container rounded text-info bg-white m-2 ' >
-                            <h3   >0{item.id}</h3>
-                            <img src={item.image} height="30%" width="100%" alt={item.info}  className='image2' />
-                            <p className='fw-bolder m-2 p-4' >{item.info}</p>
+                        <div className='rounded text-info  m-2 ' >
+                            <h3 className='fw-lighter m-3 '  >0{item.id}</h3>
+                            <img src={item.image} height="20%" width="40%" alt={item.info}  className='image2' />
+                            <p className='fw-bolder m-4 p-4' >{item.info}</p>
                         </div>
                         </center>
                     </Column>

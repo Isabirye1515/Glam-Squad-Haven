@@ -7,8 +7,9 @@ import Inform from './inform';
 
 const Home = () => {
     return (
-        <div className='home-up '>
-            <center>
+        <div >
+            <div   className='home-up p-5 mb-0'>
+            <center >
             {/* Navigation Buttons */}
             <Grid>
                 
@@ -17,7 +18,7 @@ const Home = () => {
                     <Tag>Services</Tag>
                     < Tag>Shop</Tag>
                     <Tag>Company</Tag>
-                    <Tag>Contact</Tag>
+                    <Tag>Contact</Tag> 
                 </Column>
                 
             </Grid>
@@ -34,6 +35,7 @@ const Home = () => {
                 </Column>
                 
             </Grid>
+            </div>
             <div><HeroSecton /></div>
             <div><Tell /></div>
             <div> <Inform /></div>

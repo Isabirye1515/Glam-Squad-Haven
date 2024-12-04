@@ -27,7 +27,7 @@ const Tell = () => {
             <Grid className=" p-3">
                 {drinks.map((drink, index) => (
                     <Column lg={6} md={6} sm={4} key={index}>
-                        <div className={`${index % 2 === 0 ? 'bg-dark text-info m-2 p-5' : 'bg-white text-info m-2 95'} p-4`}>
+                        <div className={`${index % 2 === 0 ? 'bg-dark text-info ml-4 p-5' : 'bg-white text-info mr-4'} p-4`}>
                             <h1>{drink.category}</h1>
                             {drink.items.map((item, i) => (
                                 <div key={i} className="mb-4 m-2">

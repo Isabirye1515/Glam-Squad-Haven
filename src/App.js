@@ -15,7 +15,7 @@ import Company from './components/company/company';
 
 function App() {
   return (
-    < div className='container'>
+    < div className='m-2'>
       <Header />
       <div  className='route'>
       <Routes>
