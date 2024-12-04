@@ -12,7 +12,7 @@ const Contactus = () => {
                     <h1>Contact Us</h1>
                 </div>
 
-                <h2 className='m-2' >Contact us about anything related to our company or services.
+                <h2 className='m-2 text-info fw-lighter' >Contact us about anything related to our company or services.
                 We'll do our best to get back to you as soon as possible.</h2>
                 </Column>
                 <Column lg={10} md={5} sm={4}  >
