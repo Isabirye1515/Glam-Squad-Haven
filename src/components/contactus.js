@@ -4,7 +4,7 @@ import React from 'react';
 
 const Contactus = () => {
     return (
-        <div>
+        <div className='container' >
             <Grid className='m-2' >
 
                 <Column  lg={16} md={8} sm={4} >
@@ -12,12 +12,12 @@ const Contactus = () => {
                     <h1>Contact Us</h1>
                 </div>
 
-                <h2>Contact us about anything related to our company or services.
+                <h2 className='m-2' >Contact us about anything related to our company or services.
                 We'll do our best to get back to you as soon as possible.</h2>
                 </Column>
                 <Column lg={10} md={5} sm={4}  >
 
-                <Form>
+                <Form  className='mb-4' >
                     <TextInput
                     id='name'
                     labelText="name"
