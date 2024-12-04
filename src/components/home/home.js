@@ -16,14 +16,14 @@ const Home = () => {
                 
                 <Column lg={16} md={8} sm={4} className='shop'>
                 <Link to="/">
-                    <Tag className="p-2 m-2" >Home</Tag>
+                    <Tag className="p-2 " >Home</Tag>
                     </Link>
-                    <Tag className="p-2 m-2 " >Services</Tag>
-                    < Tag className="p-2 m-2 " >Shop</Tag>
+                    <Tag className="p-2  " >Services</Tag>
+                    < Tag className="p-2  " >Shop</Tag>
                     <Link to="/company">
-                    <Tag className="p-2 m-2 " >Company</Tag>
+                    <Tag className="p-2  " >Company</Tag>
                     </Link>
-                    <Tag className="p-2 m-2 " >Contact</Tag> 
+                    <Tag className="p-2  " >Contact</Tag> 
                 </Column>
                 
             </Grid>
