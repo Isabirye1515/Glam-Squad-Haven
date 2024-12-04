@@ -3,7 +3,7 @@ import React from 'react';
 
 const Success = () => {
     return (
-        <div>
+        <div className='m-4 p-3  shadow ' >
              <div>
             <Grid>
                 <Column  lg={16} md={8} sm={4}  >
