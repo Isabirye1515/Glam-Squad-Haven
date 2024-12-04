@@ -6,31 +6,31 @@ const Company = () => {
     return (
     
         <div className='m-4 p-3  shadow ' >
-            <a href="http://localhost:3000/services"   >
+            <a href="https://gram-squad-haven.vercel.app/services"   >
             <Button>Services</Button>
             </a><br/><br />
-            <a href="http://localhost:3000/shop" >
+            <a href="https://gram-squad-haven.vercel.app/shop" >
             <Button>Shop</Button>
             </a><br/><br />
-            <a href="http://localhost:3000/success" >
+            <a href="https://gram-squad-haven.vercel.app/success" >
             <Button>Success</Button>
             </a><br/><br />
-            <a href="http://localhost:3000/contact" >
+            <a href="https://gram-squad-haven.vercel.app/contact" >
             <Button>Contact</Button>
             </a><br/><br />
-            <a href="http://localhost:3000/appointments" >
+            <a href="https://gram-squad-haven.vercel.app/appointments" >
             <Button>Appointments</Button>
             </a><br/><br />
-            <a href="http://localhost:3000/about" >
+            <a href="https://gram-squad-haven.vercel.app/about" >
             <Button>About Us</Button>
             </a><br/><br />
-            <a href="http://localhost:3000/new" >
+            <a href="https://gram-squad-haven.vercel.app/new" >
             <Button>News</Button>
             </a><br/><br />
-            <a href="http://localhost:3000/company" >
+            <a href="https://gram-squad-haven.vercel.app/company" >
             <Button>Company</Button>
             </a><br/><br />
-            <a href="http://localhost:3000/" >
+            <a href="https://gram-squad-haven.vercel.app/" >
             <Button>Home</Button>
             </a>
         </div>
