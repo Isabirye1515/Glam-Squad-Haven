@@ -5,6 +5,7 @@ import React from 'react';
 const Contactus = () => {
     return (
         <div className='container' >
+            <div className='m-4 p-3  shadow '  >
             <Grid className='m-2' >
 
                 <Column  lg={16} md={8} sm={4} >
@@ -65,6 +66,7 @@ const Contactus = () => {
                 </div  >
                 </Column>
             </Grid>
+            </div>
         </div>
     );
 }
