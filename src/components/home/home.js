@@ -12,25 +12,11 @@ const Home = () => {
             <div   className='home-up p-5 mb-0'>
         
             {/* Navigation Buttons */}
-            <Grid>
-                
-                <Column lg={16} md={8} sm={4} className='shop'>
-                <Link to="/">
-                    <Tag  >Home</Tag>
-                    </Link>
-                    <Tag    >Services</Tag>
-                    < Tag  >Shop</Tag>
-                    <Link to="/company">
-                    <Tag >Company</Tag>
-                    </Link>
-                    <Tag  >Contact</Tag> 
-                </Column>
-                
-            </Grid>
+           
         
             {/* Welcome Section */}
             <Grid className='hello  '>
-                <Column  lg={16} md={8} sm={4}  className='m-5' >
+                <Column  lg={16} md={8} sm={4}  className='m-2' >
                 <h1>A Deep Dive into Flavor and Innovation</h1>
                 <p>
                     Transform your dining experience with our new menu, where classic dishes meet
