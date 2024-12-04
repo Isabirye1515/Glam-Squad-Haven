@@ -34,16 +34,16 @@ body{
 }
 .hello{
 
-border-bottom: 30px;
-margin: 10px;
 h1{
-    padding: 20px;
+    padding: 5px;
     color: aliceblue;
 
 }
 p{
-    margin-left: 30px;
+    margin-left: 20px;
     color: aliceblue;
+    font-size: 20px;
+    font-weight: lighter;
 }
 }
 .hello2{
