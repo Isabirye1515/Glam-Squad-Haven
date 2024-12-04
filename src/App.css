@@ -28,7 +28,7 @@ body{
     width: 100%; /* Ensures it spans the full width */
     border: 1px solid #ccc; /* Optional: Adds a border to visually define the area */
     color: #fff; /* Optional: Text color for contrast */
-    text-align: center; /* Optional: Centers the content */
+     /* Optional: Centers the content */
     line-height: 500px; 
 
 }
