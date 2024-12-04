@@ -7,7 +7,7 @@ const Header = () => {
     return (
         <div>
         
-        <Grid  className='container'  >
+        <Grid  className='header' >
 
             <Column lg={1} sm={1} md={1}  >
             <img   src={logo}  width={60} height={60} alt='logo' />

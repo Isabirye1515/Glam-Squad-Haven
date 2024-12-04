@@ -2,7 +2,18 @@ body{
 
     font-family: 'Times New Roman', Times, serif;
 }
-
+.header{
+    position: fixed;
+    top: 0; 
+    border-bottom: 10px;/* Distance from the top of the viewport */
+    width: 100%; /* Makes sure the header spans the full width */
+    background-color: white; /* Optional: background color to match your theme */
+    z-index: 1000; /* Keeps it above other content */
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); 
+}
+.content{
+    margin-top: 100px; 
+}
 .shop{
 
     display: flex;  
@@ -53,4 +64,13 @@ p{
 .image2{
     border-radius: 10px;
     object-fit: cover;
+}
+@media screen and (max-width:670px) {
+    
+    .header{
+        h1{
+            font-size: 23px;
+            
+        }
+    }
 }
