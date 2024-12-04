@@ -5,7 +5,7 @@ import React from 'react';
 const Contactus = () => {
     return (
         <div>
-            <Grid className='m-4' >
+            <Grid className='m-2' >
 
                 <Column  lg={16} md={8} sm={4} >
                 <div className=' bg-white p-2' >
