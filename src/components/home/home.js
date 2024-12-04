@@ -3,26 +3,31 @@ import React from 'react';
 import HeroSecton from './heroSecton';
 import Tell from './tell';
 import Inform from './inform';
+import { Link } from 'react-router-dom';
 
 
 const Home = () => {
     return (
         <div >
             <div   className='home-up p-5 mb-0'>
-            <center >
+        
             {/* Navigation Buttons */}
             <Grid>
                 
                 <Column lg={16} md={8} sm={4} className='shop'>
-                    <Tag  >Home</Tag>
-                    <Tag>Services</Tag>
-                    < Tag>Shop</Tag>
-                    <Tag>Company</Tag>
-                    <Tag>Contact</Tag> 
+                <Link to="/">
+                    <Tag className="p-2 m-2" >Home</Tag>
+                    </Link>
+                    <Tag className="p-2 m-2 " >Services</Tag>
+                    < Tag className="p-2 m-2 " >Shop</Tag>
+                    <Link to="/company">
+                    <Tag className="p-2 m-2 " >Company</Tag>
+                    </Link>
+                    <Tag className="p-2 m-2 " >Contact</Tag> 
                 </Column>
                 
             </Grid>
-            </center>
+        
             {/* Welcome Section */}
             <Grid className='hello  '>
                 <Column  lg={16} md={8} sm={4}  className='m-5' >

@@ -42,10 +42,11 @@ p{
     border: 2px solid white;
     border-radius: 5px;
     background: #f1eeee;
-    height:60%;
+    height:100%;
 }
 .slider{
     width: 60%;
+    height: 100%;
     margin: 5%;
     
 }

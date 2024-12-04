@@ -2,6 +2,7 @@ import React from 'react';
 import logo from "../assets/IMG-20241201-WA0022.jpg"
 import { Column, Grid } from '@carbon/react';
 import { Home, Menu, ShoppingCart } from '@carbon/icons-react';
+import { Link } from 'react-router-dom';
 const Header = () => {
     return (
         <div>
@@ -19,10 +20,14 @@ const Header = () => {
             
             <div className='shop'  >
                 <div>
+                    <Link to="/shop">
                 <ShoppingCart  size={30} />
+                </Link>
                 </div>
                 <div>
+                <Link to="/company">
                 <Menu  size={30} />
+                </Link>
                 </div>
             </div>
            

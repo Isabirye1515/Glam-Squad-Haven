@@ -43,7 +43,7 @@ const Inform = () => {
         <div  >
             <center>
             
-            <Slider {...settings} className='slider' >
+            <Slider {...settings} className='slider shadow' >
                 {slide.map((item) => (
                     <div key={item.id} className='slide' >
                         <h2 className='fw-lighter' >{item.infor}</h2>

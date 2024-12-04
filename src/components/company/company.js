@@ -3,7 +3,8 @@ import { Link } from 'react-router-dom';
 
 const Company = () => {
     return (
-        <div className='p-5 m-4' >
+    
+        <div className='bg-white shadow rounded p-3 m-5' >
             <Link to="services"   >
             Services
             </Link><br/><br />
@@ -32,6 +33,7 @@ const Company = () => {
             Home
             </Link>
         </div>
+    
     );
 }
 
