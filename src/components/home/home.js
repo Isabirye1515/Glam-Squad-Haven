@@ -16,7 +16,7 @@ const Home = () => {
         
             {/* Welcome Section */}
             <Grid className='hello  '>
-                <Column  lg={16} md={8} sm={4}  className='m-2 p-4' >
+                <Column  lg={16} md={8} sm={4}  className='m-1 ' >
                 <h1>A Deep Dive into Flavor and Innovation</h1>
                 <p>
                     Transform your dining experience with our new menu, where classic dishes meet

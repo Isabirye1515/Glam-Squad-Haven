@@ -27,7 +27,7 @@ const HeroSecton = () => {
                         <center>
                         <div className='rounded text-info  m-2 ' >
                             <h3 className='fw-lighter m-3 '  >0{item.id}</h3>
-                            <img src={item.image} height="20%" width="40%" alt={item.info}  className='image2' />
+                            <img src={item.image} height="20%" width="80%" alt={item.info}  className='image2' />
                             <p className='fw-bolder m-4 p-4' >{item.info}</p>
                         </div>
                         </center>
