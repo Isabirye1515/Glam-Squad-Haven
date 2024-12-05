@@ -8,17 +8,17 @@ const Company = () => {
         <div className='menu1' >
               
             <Link className='m-2' to="/" >
-            <Tag type="blue"  >Home</Tag>
+            <Tag class="btn btn-outline-success"  type="blue"  >Home</Tag>
             </Link>
             <Link className='m-2'  to="/services"   >
-            <Tag type="blue"   >Services</Tag>
+            <Tag class="btn btn-outline-success"  type="blue"   >Services</Tag>
             </Link>
         
             <Link  className='m-2' to="news" >
-            <Tag type="blue"   >About Us</Tag>
+            <Tag class="btn btn-outline-success"   type="blue"   >About Us</Tag>
             </Link>
             <Link  className='m-2' to="contact" >
-            <Tag type="blue"  >Contact</Tag>
+            <Tag class="btn btn-outline-success"   type="blue"  >Contact</Tag>
             </Link>
            
             

@@ -98,7 +98,7 @@ const Contactus = () => {
                     </Column>
 
                     <Column lg={10} md={5} sm={4}>
-                        <Form className="mb-4" onSubmit={handleSubmit}>
+                        <Form class="form-group" onSubmit={handleSubmit}>
                             <TextInput
                                 id="name"
                                 labelText="Name"
@@ -106,6 +106,7 @@ const Contactus = () => {
                                 onChange={handleChange}
                                 name="name"
                                 value={input.name}
+                                 class="form-control"
                             />
                             <TextInput
                                 id="email"
@@ -115,8 +116,10 @@ const Contactus = () => {
                                 onChange={handleChange}
                                 name="email"
                                 value={input.email}
+                                 class="form-control"
                             />
                             <TextInput
+
                                 id="number"
                                 labelText="Phone Number"
                                 placeholder="Phone Number"
@@ -124,6 +127,7 @@ const Contactus = () => {
                                 onChange={handleChange}
                                 name="contact"
                                 value={input.contact}
+                                class="form-control"
                             />
                             <TextInput
                                 id="company"
@@ -133,6 +137,7 @@ const Contactus = () => {
                                 onChange={handleChange}
                                 name="company"
                                 value={input.company}
+                                 class="form-control"
                             />
                             <TextInput
                                 id="subject"
@@ -142,6 +147,7 @@ const Contactus = () => {
                                 onChange={handleChange}
                                 name="subject"
                                 value={input.subject}
+                                 class="form-control"
                             />
                             <TextArea
                                 id="text"
@@ -150,10 +156,11 @@ const Contactus = () => {
                                 onChange={handleChange}
                                 name="comment"
                                 value={input.comment}
+                                 class="form-check-input p-5"
                             />
                             <div>
-                                <Button  className='m-2' type="submit">Submit</Button>
-                                <Button className='m-2'   type="button" onClick={handleClear}>Clear</Button>
+                                <Button  class="btn btn-primary m-2" type="submit">Submit</Button>
+                                <Button class="btn btn-danger m-2" onClick={handleClear}>Clear</Button>
                             </div>
                         </Form>
                     </Column>
