@@ -17,7 +17,7 @@ const Home = () => {
             {/* Welcome Section */}
             <Grid className='hello  '>
                 <Column  lg={16} md={8} sm={4}  className='m-1 ' >
-                <h1> The Glam squad haven </h1>
+                <h1 className='m-3' > The Glam squad haven </h1>
                 <p>
                 To become the ultimate beauty and wellness destination, renowned for our exceptional services, talented team, and commitment to empowering our clients to live their best lives
                 </p>
