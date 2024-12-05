@@ -29,12 +29,12 @@ const Header = () => {
             <div className='shop'  >
                 <div>
                     <Link to="/shop">
-                <ShoppingCart  size={30} />
+                <ShoppingCart class="btn btn-sm btn-outline-secondary m-1"   size={30} />
                 </Link>
                 </div>
                 <div>
                 
-                <Menu onClick={handleMenu} size={30} />
+                <Menu class="btn btn-sm btn-outline-secondary m-1"  onClick={handleMenu} size={30} />
                 </div>
             </div>
             
