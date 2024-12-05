@@ -20,6 +20,8 @@ function App() {
       <div className='content' >
 
       <div  className='route'>
+        <center> <Company /></center>
+       
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/services' element={<Services />} />

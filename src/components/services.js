@@ -10,7 +10,7 @@ const items = [
     {id:3,title:"Feature Three",desc:"Delete the above image or replace it with a picture that illustrates your message. Click on the picture to change its rounded corner style.",image:imagesC}
 ]
     return (
-        <div className='container mb-4' >
+        <div className='container mb-5 p-2' >
            <Grid>
             
             {items.map((item)=>(

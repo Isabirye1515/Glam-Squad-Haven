@@ -5,7 +5,7 @@ import React from 'react';
 const Contactus = () => {
     return (
         <div className='container' >
-            <div className='m-4 p-3  shadow '  >
+            <div className='m-4 p-5  shadow '  >
             <Grid className='m-2' >
 
                 <Column  lg={16} md={8} sm={4} >
@@ -13,7 +13,7 @@ const Contactus = () => {
                     <h1>Contact Us</h1>
                 </div>
 
-                <h2 className='m-2 text-info fw-lighter' >Contact us about anything related to our company or services.
+                <h2 className='m-2 text-black fw-light' >Contact us about anything related to our company or services.
                 We'll do our best to get back to you as soon as possible.</h2>
                 </Column>
                 <Column lg={10} md={5} sm={4}  >
@@ -59,7 +59,7 @@ const Contactus = () => {
                 </Column>
                 <Column lg={4} md={3} sm={4} >
                 <div className='text-info' >
-                    <h2 className='text-white'>Connect with us</h2>
+                    <h2 className='text-dark'>Connect with us</h2>
                   <MessageQueue size={40}   />  Contact us <br/>
                     <Email size={40} /> info@yourcompany.example.com<br/>
                     <Phone size={40} />  +1 555-555-5556<br/>

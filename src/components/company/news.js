@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 const News = () => {
     return (
-        <div className='m-4 p-4  shadow ' >
+        <div className='m-4 p-5  shadow ' >
             <Grid>
                 <Column  lg={16} md={8} sm={4}  >
                 <div> 

@@ -4,7 +4,7 @@ import React from 'react';
 
 const Shop = () => {
     return (
-        <div className='m-4 p-3  shadow ' >
+        <div className='m-4 p-5  shadow ' >
             <Grid className='m-2' >
                 <Column lg={3} md={2} sm={4} >
                 <div>

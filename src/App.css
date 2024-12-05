@@ -9,7 +9,7 @@ body{
     border-bottom: 10px;/* Distance from the top of the viewport */
     width: 100%; /* Makes sure the header spans the full width */
     background-color: white; /* Optional: background color to match your theme */
-    z-index: 1000; /* Keeps it above other content */
+    z-index: 1000;  /* Keeps it above other content */
     box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); 
 }
 .content{
@@ -71,8 +71,18 @@ p{
     object-fit: cover;
 }
 .menu1{
-    
+    background:white;
+    width: 100%;
     display: flex;
+    align-content: center;
+    position:fixed;
+    z-index: 1000;  
+    border-bottom: 10px;
+}
+.manual{
+    
+    margin-top: 30px;
+    border-left: 10px;
 }
 @media screen and (max-width:670px) {
     

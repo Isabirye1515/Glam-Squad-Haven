@@ -5,20 +5,20 @@ import { Link } from 'react-router-dom';
 const Company = () => {
     return (
   
-        <div className='menu1 m-0' >
+        <div className='menu1' >
               
             <Link className='m-2' to="/" >
-            <Tag type="blue" size="sm" >Home</Tag>
+            <Tag type="blue"  >Home</Tag>
             </Link>
             <Link className='m-2'  to="/services"   >
-            <Tag type="blue" size="sm"  >Services</Tag>
+            <Tag type="blue"   >Services</Tag>
             </Link>
         
             <Link  className='m-2' to="news" >
-            <Tag type="blue" size="sm"  >About Us</Tag>
+            <Tag type="blue"   >About Us</Tag>
             </Link>
             <Link  className='m-2' to="contact" >
-            <Tag type="blue" size="sm"  >Contact</Tag>
+            <Tag type="blue"  >Contact</Tag>
             </Link>
            
             

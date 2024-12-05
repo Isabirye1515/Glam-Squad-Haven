@@ -4,8 +4,9 @@ import { Column, Grid, Search } from '@carbon/react';
 import { Home, Menu, ShoppingCart } from '@carbon/icons-react';
 import { Link } from 'react-router-dom';
 import Company from './company/company';
+import Manual from './company/menu';
 const Header = () => {
-    const [menu,setMenu] = useState(true);
+    const [menu,setMenu] = useState(false);
     const handleMenu = ()=>{
         setMenu(!menu)
     }
@@ -36,16 +37,16 @@ const Header = () => {
                 </div>
             </div>
             
-            {menu && (
-                
-                <Column lg={16} md={8} sm={4}  >
-                    <center> <Company /></center>
-           
-            </Column>
-        )}
+            
        
         </Grid>
-        
+        {menu && (
+                
+    
+                    <center> <Manual /></center>
+           
+            
+        )}
         </div>
     );
 }

@@ -4,8 +4,8 @@ import React from 'react';
 
 const Appointments = () => {
     return (
-        <div>
-            <Grid>
+        <div className='p-5 ' >
+            <Grid className='p-2' >
                 <Column lg={16} md={8} sm={4} >
                 <div className='rounded bg-info' >
                     <center>
