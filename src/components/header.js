@@ -20,7 +20,7 @@ const Header = () => {
             </Column>
             <Column lg={13} md={6} sm={2}>
             <h1 className='fw-bolder' >
-                Gram Squad Haven
+                Glam Squad Haven
             </h1>
            
             </Column>
