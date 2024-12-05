@@ -7,17 +7,17 @@ const Company = () => {
   
         <div className='menu1' >
               
-            <Link className='m-2' to="/" >
+            <Link className='m-1' to="/" >
             <Tag class="btn btn-outline-success"  type="blue"  >Home</Tag>
             </Link>
-            <Link className='m-2'  to="/services"   >
+            <Link className='m-1'  to="/services"   >
             <Tag class="btn btn-outline-success"  type="blue"   >Services</Tag>
             </Link>
         
-            <Link  className='m-2' to="news" >
+            <Link  className='m-1' to="news" >
             <Tag class="btn btn-outline-success"   type="blue"   >About Us</Tag>
             </Link>
-            <Link  className='m-2' to="contact" >
+            <Link  className='m-1' to="contact" >
             <Tag class="btn btn-outline-success"   type="blue"  >Contact</Tag>
             </Link>
            
