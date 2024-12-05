@@ -17,11 +17,9 @@ const Home = () => {
             {/* Welcome Section */}
             <Grid className='hello  '>
                 <Column  lg={16} md={8} sm={4}  className='m-1 ' >
-                <h1>A Deep Dive into Flavor and Innovation</h1>
+                <h1> The Glam squad haven </h1>
                 <p>
-                    Transform your dining experience with our new menu, where classic dishes meet
-                    modern creativity. Elevate your palate with flavors that blend tradition and
-                    innovation seamlessly.
+                To become the ultimate beauty and wellness destination, renowned for our exceptional services, talented team, and commitment to empowering our clients to live their best lives
                 </p>
                 </Column>
                 

@@ -85,7 +85,7 @@ const Contactus = () => {
 
     return (
         <div>
-            <div className="m-4 p-5 shadow">
+            <div className="p-5 shadow">
                 <Grid className="m-2">
                     <Column lg={16} md={8} sm={4}>
                         <div className="bg-white p-2">
@@ -152,19 +152,19 @@ const Contactus = () => {
                                 value={input.comment}
                             />
                             <div>
-                                <Button type="submit">Submit</Button>
-                                <Button type="button" onClick={handleClear}>Clear</Button>
+                                <Button  className='m-2' type="submit">Submit</Button>
+                                <Button className='m-2'   type="button" onClick={handleClear}>Clear</Button>
                             </div>
                         </Form>
                     </Column>
 
                     <Column lg={4} md={3} sm={4}>
-                        <div className="text-info">
-                            <h2 className="text-dark">Connect with us</h2>
-                            <MessageQueue size={40} /> Contact us <br />
-                            <Email size={40} /> info@yourcompany.example.com<br />
-                            <Phone size={40} /> +1 555-555-5556<br />
-                        </div>
+                    <div className='text-info' >
+                    <h2 className='text-white'>Connect with us</h2>
+                  <MessageQueue size={20}   />  Contact us <br/>
+                    <Email size={20} /> glamsquadhaven.com<br/>
+                    <Phone size={20} /> +256-757985988<br/>
+                </div  >
                     </Column>
                 </Grid>
             </div>

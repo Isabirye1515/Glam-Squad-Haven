@@ -49,8 +49,8 @@ Our products are designed for small to medium size companies willing to optimize
                 <div className='text-info' >
                     <h2 className='text-white'>Connect with us</h2>
                   <MessageQueue size={20}   />  Contact us <br/>
-                    <Email size={20} /> info@yourcompany.example.com<br/>
-                    <Phone size={20} />  +1 555-555-5556<br/>
+                    <Email size={20} /> glamsquadhaven.com<br/>
+                    <Phone size={20} /> +256-757985988<br/>
                 </div  >
                 <div className='mt-4' >
                 <LogoFacebook size={50}/>
