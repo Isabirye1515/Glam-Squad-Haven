@@ -19,9 +19,7 @@ const Manual = () => {
                 <SideNavLink href="/success">Success</SideNavLink>
                 <SideNavLink href="/contact">Contact</SideNavLink>
                 <SideNavLink href="/appointment">Appointments</SideNavLink>
-                <SideNavLink href="/about">About Us</SideNavLink>
-                <SideNavLink href="/new">News</SideNavLink>
-                <SideNavLink href="/company">Company</SideNavLink>
+                <SideNavLink href="/news">News</SideNavLink>
                 <SideNavLink href="/">Home</SideNavLink>
             </SideNavItems>
         </SideNav>
