@@ -1,31 +1,34 @@
-import { Button, Tag } from '@carbon/react';
 import React from 'react';
 import { Link } from 'react-router-dom';
 
 const Company = () => {
     return (
-  
-        <div className='menu1' >
+        <nav aria-label="breadcrumb" >
+            <ol className="breadcrumb  shadow rounded ">
+            <li className="breadcrumb-item">
+                    <Link to="/">Home</Link>
+                </li>
+                <li className="breadcrumb-item">
+                    <Link to="services">Services</Link>
+                </li>
+               
               
-            <Link  to="/" >
-            <Tag type="blue" size="sm" >Home</Tag>
-            </Link>
-            <Link  to="/services"   >
-            <Tag type="blue" size="sm"  >Services</Tag>
-            </Link>
-            <Link   to="appointment" >
-            <Tag type="blue" size="sm"  >Appointments</Tag>
-            </Link><br/>
-            <Link   to="news" >
-            <Tag type="blue" size="sm"  >About Us</Tag>
-            </Link>
-            <Link   to="contact" >
-            <Tag type="blue" size="sm"  >Contact</Tag>
-            </Link>
-           
-            
-        </div>
-    
+                <li className="breadcrumb-item">
+                    <Link to="contact">Contact</Link>
+                </li>
+                <li className="breadcrumb-item">
+                    <Link to="appointment">Appointments</Link>
+                </li>
+                <li className="breadcrumb-item">
+                    <Link to="news">About Us</Link>
+                </li>
+               
+               
+                
+                
+               
+            </ol>
+        </nav>
     );
 }
 

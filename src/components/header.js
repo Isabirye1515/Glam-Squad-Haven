@@ -38,7 +38,7 @@ const Header = () => {
             
             {menu && (
                 
-                <Column lg={16} md={8} sm={4} >
+                <Column lg={16} md={8} sm={4}  >
                     <center> <Company /></center>
            
             </Column>
