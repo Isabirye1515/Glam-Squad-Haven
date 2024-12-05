@@ -8,20 +8,19 @@ const Company = () => {
         <div className='menu1' >
               
             <Link  to="/" >
-            <Tag>Home</Tag>
+            <Tag type="blue" size="sm" >Home</Tag>
             </Link>
             <Link  to="/services"   >
-            <Tag>Services</Tag>
+            <Tag type="blue" size="sm"  >Services</Tag>
             </Link>
-            
             <Link   to="appointment" >
-            <Tag>Appointments</Tag>
+            <Tag type="blue" size="sm"  >Appointments</Tag>
             </Link><br/>
             <Link   to="news" >
-            <Tag>About Us</Tag>
+            <Tag type="blue" size="sm"  >About Us</Tag>
             </Link>
             <Link   to="contact" >
-            <Tag>Contact</Tag>
+            <Tag type="blue" size="sm"  >Contact</Tag>
             </Link>
            
             

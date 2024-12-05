@@ -71,6 +71,7 @@ p{
     object-fit: cover;
 }
 .menu1{
+    
     display: flex;
 }
 @media screen and (max-width:670px) {
