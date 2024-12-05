@@ -1,38 +1,30 @@
-import { Button } from '@carbon/react';
+import { Button, Tag } from '@carbon/react';
 import React from 'react';
 import { Link } from 'react-router-dom';
 
 const Company = () => {
     return (
-    
-        <div className='m-4 p-3  shadow ' >
-            <a href="https://gram-squad-haven.vercel.app/services"   >
-            <Button>Services</Button>
-            </a><br/><br />
-            <a href="https://gram-squad-haven.vercel.app/shop" >
-            <Button>Shop</Button>
-            </a><br/><br />
-            <a href="https://gram-squad-haven.vercel.app/success" >
-            <Button>Success</Button>
-            </a><br/><br />
-            <a href="https://gram-squad-haven.vercel.app/contact" >
-            <Button>Contact</Button>
-            </a><br/><br />
-            <a href="https://gram-squad-haven.vercel.app/appointments" >
-            <Button>Appointments</Button>
-            </a><br/><br />
-            <a href="https://gram-squad-haven.vercel.app/about" >
-            <Button>About Us</Button>
-            </a><br/><br />
-            <a href="https://gram-squad-haven.vercel.app/new" >
-            <Button>News</Button>
-            </a><br/><br />
-            <a href="https://gram-squad-haven.vercel.app/company" >
-            <Button>Company</Button>
-            </a><br/><br />
-            <a href="https://gram-squad-haven.vercel.app/" >
-            <Button>Home</Button>
-            </a>
+  
+        <div className='menu1' >
+              
+            <Link  to="/" >
+            <Tag>Home</Tag>
+            </Link>
+            <Link  to="/services"   >
+            <Tag>Services</Tag>
+            </Link>
+            
+            <Link   to="appointment" >
+            <Tag>Appointments</Tag>
+            </Link><br/>
+            <Link   to="news" >
+            <Tag>About Us</Tag>
+            </Link>
+            <Link   to="contact" >
+            <Tag>Contact</Tag>
+            </Link>
+           
+            
         </div>
     
     );

@@ -1,9 +1,14 @@
-import React from 'react';
+import React, { useState } from 'react';
 import logo from "../assets/IMG-20241201-WA0022.jpg"
-import { Column, Grid } from '@carbon/react';
+import { Column, Grid, Search } from '@carbon/react';
 import { Home, Menu, ShoppingCart } from '@carbon/icons-react';
 import { Link } from 'react-router-dom';
+import Company from './company/company';
 const Header = () => {
+    const [menu,setMenu] = useState(true);
+    const handleMenu = ()=>{
+        setMenu(!menu)
+    }
     return (
         <div>
         
@@ -16,6 +21,7 @@ const Header = () => {
             <h1 className='fw-bolder' >
                 Gram Squad Haven
             </h1>
+           
             </Column>
             
             <div className='shop'  >
@@ -25,16 +31,21 @@ const Header = () => {
                 </Link>
                 </div>
                 <div>
-                <Link to="/company">
-                <Menu  size={30} />
-                </Link>
+                
+                <Menu onClick={handleMenu} size={30} />
                 </div>
             </div>
-           
             
-
-
+            {menu && (
+                
+                <Column lg={16} md={8} sm={4} >
+                    <center> <Company /></center>
+           
+            </Column>
+        )}
+       
         </Grid>
+        
         </div>
     );
 }

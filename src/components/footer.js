@@ -26,15 +26,11 @@ const Footer = () => {
             <Link to="appointment" >
             Appointments
             </Link><br/><br />
-            <Link to="about" >
-            About Us
-            </Link><br/><br />
+           
             <Link to="news" >
             News
             </Link><br/><br />
-            <Link to="company" >
-            Company
-            </Link><br/><br />
+           
             <Link to="/" >
             Home
             </Link>

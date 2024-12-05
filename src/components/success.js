@@ -1,23 +1,24 @@
 import { Column, Grid, Search, Tag } from '@carbon/react';
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Success = () => {
     return (
-        <div className='m-4 p-3  shadow ' >
+        <div className='m-4 p-4  shadow ' >
              <div>
             <Grid>
                 <Column  lg={16} md={8} sm={4}  >
                 <div> 
-                    <h1 className='h-1 bg-red' >Success Stories</h1>
+                    <h1 className='h-1 bg-red p-2' >Success Stories</h1>
                 </div>
                 </Column>
                 <Column lg={8} md={4} sm={4} >
                 <div>
                     <b>Blogs :</b>
-                <Tag>All</Tag>
-                    <Tag>news</Tag>
-                    <Tag>Blogs</Tag>
+                All Our
+                    
                     <Tag>Success Stories</Tag>
+                    
                 </div>
                 </Column>
                 <Column lg={8} md={4} sm={4} >
