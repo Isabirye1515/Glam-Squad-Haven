@@ -30,19 +30,20 @@ const News = () => {
     }, []);
 
     return (
-        <div className='m-4 p-5 shadow'>
+        <div className=' news '>
+            <div className=' m-3 p-5 shadow' >
             <Grid>
                 <Column lg={16} md={8} sm={4}>
                     <div>
-                        <h1 className='h-1 bg-red p-2'>News</h1>
+                        <h1 className='h-1 text-success p-2'>News</h1>
                     </div>
                 </Column>
 
                 <Column lg={8} md={4} sm={4}>
-                    <div>
+                    <div className='text-white' >
                         <b>Blogs :</b>
                         All About In
-                        <Tag>news</Tag>
+                        <Tag type="blue" size="lg" >news</Tag>
                     </div>
                 </Column>
 
@@ -57,7 +58,7 @@ const News = () => {
                 </Column>
 
                 <Column lg={16} md={8} sm={4}>
-                    <div className='container rounded bg-white m-2'>
+                    <div className='container rounded text-light fw-lighter m-2'>
                         {loading ? (
                             <h1>Loading...</h1> // Show loading text while data is being fetched
                         ) : newsData.length === 0 ? (
@@ -80,6 +81,7 @@ const News = () => {
                     </div>
                 </Column>
             </Grid>
+            </div>
         </div>
     );
 };

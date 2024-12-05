@@ -91,7 +91,13 @@ p{
     background-repeat: no-repeat; /* Prevents the image from repeating */
     background-position: center;
 }
+.news{
+    background-image: url("../src/assets/ak.jpg");
+    background-size: cover; /* Ensures the image covers the container proportionally */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-position: center;
 
+}
 
 
 
