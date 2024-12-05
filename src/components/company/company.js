@@ -7,7 +7,7 @@ const Company = () => {
   
         <div className='menu1' >
               
-            <Link  to="/" >
+              <Link  to="/" >
             <Tag class="btn btn-outline-success m-1"  type="blue"  >Home</Tag>
             </Link>
             <Link   to="/services"   >

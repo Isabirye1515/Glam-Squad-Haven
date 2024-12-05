@@ -84,14 +84,17 @@ const Contactus = () => {
     
 
     return (
-        <div>
-            <div className="p-5 shadow">
+        <div className='contact' >
+            <div className="p-5  shadow">
                 <Grid className="m-2">
                     <Column lg={16} md={8} sm={4}>
-                        <div className="bg-white p-2">
-                            <h1>Contact Us</h1>
+                        <div className=" p-2">
+                            <h1 className='text-success' >Contact Us</h1>
                         </div>
-                        <h2 className="m-2 text-black fw-light">
+                        </Column>
+                        <div></div>
+                        <Column lg={16} md={8} sm={4}   >
+                        <h2 className="fw-lighter text-light ">
                             Contact us about anything related to our company or services.
                             We'll do our best to get back to you as soon as possible.
                         </h2>
@@ -159,14 +162,14 @@ const Contactus = () => {
                                  class="form-check-input p-5"
                             />
                             <div>
-                                <Button  class="btn btn-primary m-2" type="submit">Submit</Button>
-                                <Button class="btn btn-danger m-2" onClick={handleClear}>Clear</Button>
+                                <button  class="btn btn-primary m-2" type="submit">Submit</button>
+                                <button class="btn btn-danger m-2" onClick={handleClear}>Clear</button>
                             </div>
                         </Form>
                     </Column>
 
                     <Column lg={4} md={3} sm={4}>
-                    <div className='text-info' >
+                    <div className='text-light' >
                     <h2 className='text-white'>Connect with us</h2>
                   <MessageQueue size={20}   />  Contact us <br/>
                     <Email size={20} /> glamsquadhaven.com<br/>

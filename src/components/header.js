@@ -22,7 +22,7 @@ const Header = () => {
             <h1 className='fw-bolder' >
                 Glam Squad Haven
             </h1>
-            <p>where beauty meets expertise </p>
+            <p className='fw-lighter' >where beauty meets expertise </p>
            
             </Column>
             

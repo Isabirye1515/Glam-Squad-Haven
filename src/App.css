@@ -85,6 +85,35 @@ p{
     margin-top: 30px;
     border-left: 10px;
 }
+.contact{
+    background-image: url("../src/assets/af.jpg");
+    background-size: cover; /* Ensures the image covers the container proportionally */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-position: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media screen and (max-width:670px) {
     
     .header{
