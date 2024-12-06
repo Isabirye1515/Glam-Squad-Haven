@@ -43,10 +43,10 @@ const Inform = () => {
         <div className='org'  >
             <center>
             
-            <Slider {...settings} className='slider shadow p-5' >
+            <Slider {...settings} className='slider' >
                 {slide.map((item) => (
-                    <div key={item.id} className='slide p-2' >
-                        <h2 className='fw-lighter' >{item.infor}</h2>
+                    <div key={item.id} className='slide' >
+                        <h2  >{item.infor}</h2>
                         <img
                             src={item.image}
                             height={40}
