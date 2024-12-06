@@ -2,31 +2,71 @@ import React from 'react';
 import { Column, Grid } from '@carbon/react';
 
 const Tell = () => {
-    const drinks = [
+    const beautyServices = [
         {
-            category: "Coffees",
+            category: "Hair Care",
             items: [
-                { name: "Coffee Latte", price: "$4.50", description: "Sleek, minimalist space offering meticulously brewed coffee and espresso drinks using freshly roasted beans." },
-                { name: "Cappuccino", price: "$4.25", description: "A vibrant spot known for its expertly crafted coffee, sourced directly from farmers and roasted to perfection." },
-                { name: "Espresso", price: "$4.10", description: "Artisanal espresso with a focus on direct trade and exceptional quality in a chic, comfortable setting." },
+                { 
+                    name: "Hair Dressing", 
+                    price: "$50", 
+                    description: "Expert styling and cutting tailored to suit your unique style and personality." 
+                },
+                { 
+                    name: "Hair Treatments", 
+                    price: "$70", 
+                    description: "Rejuvenating treatments to restore shine and health to your hair, leaving it smooth and silky." 
+                },
+                { 
+                    name: "Hair Coloring", 
+                    price: "$90", 
+                    description: "Professional coloring services using high-quality products for vibrant, long-lasting results." 
+                },
             ],
         },
         {
-            category: "Teas",
+            category: "Skin Care",
             items: [
-                { name: "Earl Grey", price: "$3.50", description: "A classic black tea blend infused with the aromatic essence of bergamot, offering a fragrant, citrusy flavor." },
-                { name: "Jasmine Green Tea", price: "$3.00", description: "Delicate green tea scented with jasmine blossoms, providing a soothing and floral experience." },
-                { name: "Chamomile Tea", price: "$4.00", description: "Herbal tea made from dried chamomile flowers, known for its calming properties and gentle, apple-like flavor." },
+                { 
+                    name: "Facial Treatments", 
+                    price: "$60", 
+                    description: "Revitalizing facials designed to cleanse, exfoliate, and rejuvenate your skin." 
+                },
+                { 
+                    name: "Massage and Spa", 
+                    price: "$80", 
+                    description: "Relaxing massages and spa therapies to ease tension and promote overall well-being." 
+                },
+                { 
+                    name: "Skin Care Products", 
+                    price: "Varies", 
+                    description: "A curated selection of premium skincare products tailored to your skin's needs." 
+                },
+            ],
+        },
+        {
+            category: "Beauty Enhancements",
+            items: [
+                { 
+                    name: "Makeup and Veiling", 
+                    price: "$100", 
+                    description: "Flawless makeup application and elegant veiling for any special occasion." 
+                },
+                { 
+                    name: "Manicure and Pedicure", 
+                    price: "$40", 
+                    description: "Pampering services to keep your nails perfectly shaped and polished." 
+                },
             ],
         },
     ];
+    
 
     return (
         <div>
             <center>
             <Grid className=" p-3">
-                {drinks.map((drink, index) => (
-                    <Column lg={6} md={6} sm={4} key={index}>
+                {beautyServices.map((drink, index) => (
+                    <Column lg={5} md={3} sm={4} key={index}>
                         <div className={`${index % 2 === 0 ? 'bg-dark text-info ml-4 p-5' : 'bg-white text-info mr-4'} p-4`}>
                             <h1>{drink.category}</h1>
                             {drink.items.map((item, i) => (

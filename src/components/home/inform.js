@@ -40,10 +40,10 @@ const Inform = () => {
     };
 
     return (
-        <div  >
+        <div className='org'  >
             <center>
             
-            <Slider {...settings} className='slider shadow' >
+            <Slider {...settings} className='slider shadow p-4' >
                 {slide.map((item) => (
                     <div key={item.id} className='slide' >
                         <h2 className='fw-lighter' >{item.infor}</h2>

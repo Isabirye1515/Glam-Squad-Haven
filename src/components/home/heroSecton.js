@@ -1,20 +1,20 @@
 import { Column, Grid } from '@carbon/react';
 import React from 'react';
 import image1 from "./../../assets/a.jpg";
-import image2 from "./../../assets/c.jpg";
-import image3 from "./../../assets/d.jpg";
-import image4 from "./../../assets/e.jpg";
+import image2 from "./../../assets/zf.jpg";
+import image3 from "./../../assets/zl.jpg";
+import image4 from "./../../assets/zz.jpg";
 
 
 const HeroSecton = () => {
     const info = [
-        { id: 1, image: image1, info: "Fresh ingredients, deliciously prepared" },
-        { id: 2, image: image2, info: "A cozy ambiance for any occasion" },
-        { id: 3, image: image3, info: "Gourmet dishes that will tempt your taste buds" },
-        { id: 4, image: image4, info: "Experience our passion for great food and service" },
+        { id: 1, image: image1, info: "Radiate confidence with our professional makeup and veiling services" },
+        { id: 2, image: image2, info: "Pamper yourself with our luxurious manicure and pedicure treatments" },
+        { id: 3, image: image3, info: "Glow from within with our rejuvenating facial treatments" },
+        { id: 4, image: image4, info: "Relax, unwind, and recharge with our soothing massage and spa services" },
     ];
     return (
-        <div className='bg-primary' >
+        <div className='bg-primary p-3' >
             <div className='fw-light p-3 m-4' >
                     <h2>Savor the Flavors of Our Bistro</h2>
                    <p> Delight in Every Bite, Every Moment</p>

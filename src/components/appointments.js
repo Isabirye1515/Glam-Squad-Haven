@@ -4,7 +4,7 @@ import React from 'react';
 
 const Appointments = () => {
     return (
-        <div className='p-5 ' >
+        <div className=' appointments p-5 ' >
             <Grid className='p-2' >
                 <Column lg={16} md={8} sm={4} >
                 <div className='rounded bg-info' >
@@ -23,7 +23,7 @@ const Appointments = () => {
                 <Column lg={16} md={8} sm={4} >
                 <div  >
                 <center>
-                    <h3 className='fw-bolder m-4' >There is currently no appointment available.</h3>
+                    <h3 className='fw-bolder text-light m-4' >There is currently no appointment available.</h3>
                     </center>
                 </div>
                 </Column>

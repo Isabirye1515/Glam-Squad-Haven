@@ -4,16 +4,17 @@ import { Link } from 'react-router-dom';
 
 const Success = () => {
     return (
+        <div className='appointments' >
         <div className='m-4 p-5  shadow ' >
              <div>
             <Grid>
                 <Column  lg={16} md={8} sm={4}  >
                 <div> 
-                    <h1 className='h-1 bg-red p-2' >Success Stories</h1>
+                    <h1 className='h-1 text-success p-2' >Success Stories</h1>
                 </div>
                 </Column>
                 <Column lg={8} md={4} sm={4} >
-                <div>
+                <div className='text-white' >
                     <b>Blogs :</b>
                 All Our
                     
@@ -32,8 +33,8 @@ const Success = () => {
                 </div>
                 </Column>
                 <Column lg={16} md={8} sm={4} >
-                <div className='container rounded bg-white m-2' >
-                    <h1>
+                <div className=' rounded  m-2' >
+                    <h1 className='text-light' >
                         There is no Success Stories  yet !
                     </h1>
 
@@ -44,6 +45,7 @@ const Success = () => {
             </Grid>
         </div>
 
+        </div>
         </div>
     );
 }

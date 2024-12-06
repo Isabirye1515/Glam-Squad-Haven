@@ -9,7 +9,7 @@ import { Link } from 'react-router-dom';
 const Home = () => {
     return (
         <div >
-            <div   className='home-up p-5 mb-0'>
+            <div   className='home-up p-5 '>
         
             {/* Navigation Buttons */}
            
@@ -25,7 +25,7 @@ const Home = () => {
                 
             </Grid>
             </div>
-            <div><HeroSecton /></div>
+            <div   className='hero'><HeroSecton /></div>
             <div><Tell /></div>
             <div> <Inform /></div>
 
