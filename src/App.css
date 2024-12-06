@@ -1,7 +1,7 @@
 body{
 
     font-family: 'Times New Roman', Times, serif;
-    background-color: #e2d2d2;
+    background-color:white;
 }
 .header{
     position: fixed;
@@ -33,6 +33,7 @@ body{
     color: #fff; /* Optional: Text color for contrast */
      /* Optional: Centers the content */
     line-height: 600px; 
+    margin-bottom: 0%;
 
 }
 .hello{
@@ -100,6 +101,26 @@ p{
     background-repeat: no-repeat; /* Prevents the image from repeating */
     background-position: center;
 
+}
+.shops{
+    background-image: url("../src/assets/zx.jpg");
+    background-size: cover; /* Ensures the image covers the container proportionally */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-position: center;
+
+}
+.appointments{
+    background-image: url("../src/assets/zo.jpg");
+    background-size: cover; /* Ensures the image covers the container proportionally */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-position: center;
+
+}
+.desc{
+    font-size: x-small;
+}
+.hero{
+    margin-top: 0px;
 }
 
 
