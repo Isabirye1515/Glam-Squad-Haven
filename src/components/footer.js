@@ -2,6 +2,11 @@ import { Email, Home, LogoFacebook, LogoLinkedin, LogoTwitter, LogoYoutube, Mess
 import { Column, Grid } from '@carbon/react';
 import React from 'react';
 import { Link } from 'react-router-dom';
+import faceBok from "./../assets/y.png"
+import tiktok from "./../assets/z.png"
+import insta from "./../assets/x.png"
+import youtube from "./../assets/e.png"
+import gmail from "./../assets/rk.png"
 
 const Footer = () => {
     return (
@@ -35,7 +40,7 @@ const Footer = () => {
             Home
             </Link>
                 </div>
-
+ 
                 </Column>
                 <Column  lg={5} md={2} sm={4}  >
                 <div className='text-white mb-4' >
@@ -49,15 +54,19 @@ Our products are designed for small to medium size companies willing to optimize
                 <div className='text-info' >
                     <h2 className='text-white'>Connect with us</h2>
                   <MessageQueue size={20}   />  Contact us <br/>
-                    <Email size={20} /> glamsquadhaven.com<br/>
-                    <Phone size={20} /> +256-757985988<br/>
+                  <Email size={20} /><a   href=' https://mail.google.com/mail/u/2/#inbox?compose=CllgCJTLphkdHDGdQdvsjDMrtjlFClvFQjsrXnDdktHWJwHGpVnDDvfxCbBKDgtPJGvTvtFSmPg' target='_blank' rel='noopener norefferer'>glansquadhaven@gmail.com</a><br/>
+                  <Phone size={20} /> <a href='tel:+256-757985988' >+256-757985988</a><br/>
                 </div  >
                 <div className='mt-4' >
-                <LogoFacebook size={50}/>
-                <LogoYoutube   size={50}/>
-                <LogoTwitter size={50}/>
-                <LogoLinkedin size={50}/>
-                <Home size={50}/>
+                    <a className='m-2' href='https://www.facebook.com/profile.php?id=61569955415896&name=xhp_nt__fb__action__open_user&__n=K' target='_blank' rel='noopener norefferer'><img src={faceBok} height={40} width={40} alt="facebook" /></a>
+                    <a className='m-2' href='https://m.youtube.com/@GlamSquadHaven' target='_blank' rel='noopener norefferer'><img src={youtube} height={40} width={40} alt="youtube" /></a>
+                    <a className='m-2' href='https://www.instagram.com/glam_squad_haven/' target='_blank' rel='noopener norefferer'><img src={insta} height={40} width={40} alt="instagram" /></a>
+                    <a  className='m-2' href='https://vm.tiktok.com/ZMkRdCYns/' target='_blank' rel='noopener norefferer'><img src={tiktok} height={40} width={40} alt="tiktok" /></a>
+                    <a  className='m-2' href=' https://mail.google.com/mail/u/2/#inbox?compose=CllgCJTLphkdHDGdQdvsjDMrtjlFClvFQjsrXnDdktHWJwHGpVnDDvfxCbBKDgtPJGvTvtFSmPg' target='_blank' rel='noopener norefferer'><img src={gmail} height={40} width={40} alt="gmail" /></a>
+                    
+                
+                
+    
                 </div>
                 </Column>
             </Grid>

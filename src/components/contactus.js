@@ -170,10 +170,9 @@ const Contactus = () => {
 
                     <Column lg={4} md={3} sm={4}>
                     <div className='text-light' >
-                    <h2 className='text-white'>Connect with us</h2>
-                  <MessageQueue size={20}   />  Contact us <br/>
-                    <Email size={20} /> glamsquadhaven.com<br/>
-                    <Phone size={20} /> +256-757985988<br/>
+                    <h2 className='text-white'>Connect with us On</h2>
+                    <Email size={20} /><a  className='m-2' href=' https://mail.google.com/mail/u/2/#inbox?compose=CllgCJTLphkdHDGdQdvsjDMrtjlFClvFQjsrXnDdktHWJwHGpVnDDvfxCbBKDgtPJGvTvtFSmPg' target='_blank' rel='noopener norefferer'>glansquadhaven@gmail.com</a><br/>
+                    <Phone size={20} /> <a href='tel:+256-757985988' >+256-757985988</a><br/>
                 </div  >
                     </Column>
                 </Grid>

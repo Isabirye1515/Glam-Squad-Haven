@@ -1,11 +1,11 @@
 import { Column, Grid } from '@carbon/react';
 import React from 'react';
-import imagesA from "./../assets/ze.jpg";
-import imagesB from "./../assets/zh.jpg";
+import imagesA from "./../assets/lk.jpg";
+import imagesB from "./../assets/pa.jpg";
 import imagesC from "./../assets/zg.jpg";
 import imagesD from "./../assets/zb.jpg";
 import imagesE from "./../assets/za.jpg";
-import imagesF from "./../assets/zk.jpg";
+import imagesF from "./../assets/lj.jpg";
 const Services = () => {
 const items = [
     {id:1,title:"Hair Dressing",desc:"Transform your look with our expert hairdressing services! Whether it's a trendy cut, a vibrant new color, or a flawless style for a special occasion, we are here to bring your vision to life. Your hair deserves the best care and attention, and that's exactly what we deliver",image:imagesA},

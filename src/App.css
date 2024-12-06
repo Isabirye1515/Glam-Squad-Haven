@@ -23,7 +23,7 @@ body{
     display: flex;  
 }
 .home-up{
-    background-image: url("../src/assets/ba.jpg");
+    background-image: url("../src/assets/lm.jpg");
     background-size: cover; /* Ensures the image covers the container proportionally */
     background-repeat: no-repeat; /* Prevents the image from repeating */
     background-position: center; /* Centers the image in the container */
@@ -40,15 +40,18 @@ body{
     
 
 h1{
+    
     padding: 5px;
-    color: aliceblue;
+    color: black;
+    font-weight: bold;
+    font-size: 40px;
 
 }
 p{
     margin-left: 20px;
-    color: aliceblue;
-    font-size: 20px;
-    font-weight: lighter;
+    color: white;
+    
+    
 }
 }
 .hello2{
@@ -90,8 +93,8 @@ p{
     border-left: 10px;
 }
 .contact{
-    background-image: url("../src/assets/af.jpg");
-    background-size: cover; /* Ensures the image covers the container proportionally */
+    background-image: url("../src/assets/pc.jpg");
+    background-size: cover; /* sures the image covers the container proportionally */
     background-repeat: no-repeat; /* Prevents the image from repeating */
     background-position: center;
 }
@@ -123,7 +126,9 @@ p{
     margin-top: 0px;
 }
 
-
+.section{
+    background-color: teal;
+}
 
 
 

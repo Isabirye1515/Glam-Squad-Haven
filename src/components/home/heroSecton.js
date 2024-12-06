@@ -1,8 +1,8 @@
 import { Column, Grid } from '@carbon/react';
 import React from 'react';
-import image1 from "./../../assets/a.jpg";
+import image1 from "./../../assets/pa.jpg";
 import image2 from "./../../assets/zf.jpg";
-import image3 from "./../../assets/zl.jpg";
+import image3 from "./../../assets/zi.jpg";
 import image4 from "./../../assets/zz.jpg";
 
 
@@ -14,7 +14,7 @@ const HeroSecton = () => {
         { id: 4, image: image4, info: "Relax, unwind, and recharge with our soothing massage and spa services" },
     ];
     return (
-        <div className='bg-primary p-3' >
+        <div className='section p-3' >
             <div className='fw-light p-3 m-4' >
                     <h2>Savor the Flavors of Our Bistro</h2>
                    <p> Delight in Every Bite, Every Moment</p>
