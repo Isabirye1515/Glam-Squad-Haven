@@ -44,7 +44,7 @@ const Tell = () => {
             ],
         },
         {
-            category: "Beauty Enhancements",
+            category: "Beauty Enhance.",
             items: [
                 { 
                     name: "Makeup and Veiling", 
@@ -73,7 +73,7 @@ const Tell = () => {
                                 <div key={i} className="mb-4 m-2">
                                     <h5>{item.name}</h5>
                                     <p>{item.price}</p>
-                                    <p>{item.description}</p>
+                                    <p className='mb-2' >{item.description}</p>
                                 </div>
                             ))}
                         </div><br/>
