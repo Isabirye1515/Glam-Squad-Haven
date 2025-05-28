@@ -1,0 +1,1 @@
+module.exports = 'test-file-stub'; // This is a placeholder for file imports in tests
