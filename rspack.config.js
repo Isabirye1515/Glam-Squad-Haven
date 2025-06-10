@@ -61,11 +61,12 @@ module.exports = {
       favicon: './public/favicon.jpg',
     }),
   ],
-  devServer: {
+ devServer: {
     static: path.resolve(__dirname, 'public'),
     port: 3000,
     hot: true,
     watchFiles: ['src/**/*'],
+    historyApiFallback: true, // <-- Add this line
   },
   mode: 'development',
 };
