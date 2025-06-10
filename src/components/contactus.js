@@ -162,8 +162,8 @@ const Contactus = () => {
                                  class="form-check-input p-5"
                             />
                             <div>
-                                <button  class="btn btn-primary m-2" type="submit">Submit</button>
-                                <button class="btn btn-danger m-2" onClick={handleClear}>Clear</button>
+                                <button id='submit-button' class="btn btn-primary m-2" type="submit">Submit</button>
+                                <button  id='clear-button' class="btn btn-danger m-2" onClick={handleClear}>Clear</button>
                             </div>
                         </Form>
                     </Column>
@@ -171,8 +171,8 @@ const Contactus = () => {
                     <Column lg={4} md={3} sm={4}>
                     <div className='text-light' >
                     <h2 className='text-white'>Connect with us On</h2>
-                    <Email size={20} /><a  className='m-2' href=' https://mail.google.com/mail/u/2/#inbox?compose=CllgCJTLphkdHDGdQdvsjDMrtjlFClvFQjsrXnDdktHWJwHGpVnDDvfxCbBKDgtPJGvTvtFSmPg' target='_blank' rel='noopener norefferer'>glansquadhaven@gmail.com</a><br/>
-                    <Phone size={20} /> <a href='tel:+256-757985988' >+256-757985988</a><br/>
+                    <Email size={20} /><a id='email-link' className='m-2' href=' https://mail.google.com/mail/u/2/#inbox?compose=CllgCJTLphkdHDGdQdvsjDMrtjlFClvFQjsrXnDdktHWJwHGpVnDDvfxCbBKDgtPJGvTvtFSmPg' target='_blank' rel='noopener norefferer'>glansquadhaven@gmail.com</a><br/>
+                    <Phone size={20} /> <a id='phone-link' href='tel:+256-757985988' >+256-757985988</a><br/>
                 </div  >
                     </Column>
                 </Grid>
